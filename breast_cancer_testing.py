@@ -1,3 +1,6 @@
+import matplotlib
+matplotlib.use('agg')
+import matplotlib.pyplot as plt
 import streamlit as st
 import tensorflow as tf
 import pandas as pd
